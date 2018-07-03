@@ -1,0 +1,26 @@
+Source: gnome-shell-extension-notifications-alert
+Section: gnome
+Priority: optional
+Maintainer: Mantas Kriaučiūnas <mantas@akl.lt>
+Build-Depends: debhelper (>= 10), libglib2.0-bin
+Standards-Version: 4.1.4
+Homepage: https://github.com/hackedbellini/Gnome-Shell-Notifications-Alert
+Vcs-Git: https://github.com/Baltix/gnome-shell-ext-notifications-alert-debian.git
+Vcs-Browser: https://github.com/Baltix/gnome-shell-ext-notifications-alert-debian
+
+Package: gnome-shell-extension-notifications-alert
+Architecture: all
+Depends: ${misc:Depends}, gnome-shell (>= 3.16)
+Description: Never miss unread notifications (e.g. messages) - blinks the clock area with a customizable color
+ Whenever there is an unread notification (e.g. chat messages), blinks the
+ message in the user's menu (date & clock area in upper panel) with a color 
+ chosen by the user - the clock area starts to flash as soon as there’s an
+ unread notification.
+ .
+ Alert color and blink rate can be changed on settings.
+ .
+ Answers for your question are at the FAQ: http://goo.gl/lmwtW
+ .
+ Credits: The code itself has some parts forked from 'Message Notifier'
+ extension by Marco Barisione, 'Media player indicator' extension by eon
+ and convenience.js from git.gnome.org/gnome-shell-extensions.
