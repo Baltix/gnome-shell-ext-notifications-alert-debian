@@ -1,3 +1,9 @@
+gnome-shell-extension-notifications-alert (44-0) unstable; urgency=low
+
+  * Fixed dh_installdocs build error - upstream renamed README to README.md
+
+ -- Mantas Kriaučiūnas <baltix@gmail.com>  Thu, 25 Jun 2020 11:29:55 +0300
+
 gnome-shell-extension-notifications-alert (34-0) unstable; urgency=low
 
   * Initial release
